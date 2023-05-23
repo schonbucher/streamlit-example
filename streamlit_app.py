@@ -37,7 +37,7 @@ def set_png_as_top_rhs_logo(png_file = "./logo_title.png"):
                    visibility: hidden;
                 }
                 header{ 
-                    padding: 0.4rem;
+                    padding: 0.5rem;
                 }
                 header:after {
                     display: block;
@@ -46,7 +46,7 @@ def set_png_as_top_rhs_logo(png_file = "./logo_title.png"):
                     height: 80%%;
                     position: absolute;
                     background-image: url("data:image/png;base64,%s");
-                    background-position-x: 100%%;
+                    background-position-x: 95%%;
                     background-position-y: 0%%;
                     background-repeat: no-repeat;
                     background-size: contain;
