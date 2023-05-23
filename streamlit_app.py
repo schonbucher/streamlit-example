@@ -18,7 +18,7 @@ def get_base64_of_bin_file(bin_file):
 # here is where the logo magic happens
 def set_png_as_top_rhs_logo(png_file = "./logo_title.png"):
 # Load the CSS from the file
-    with open("./mystyle.scss") as myfile:
+    with open("./mystyle.css") as myfile:
         st.markdown(f"<style>{myfile.read()}</style>", unsafe_allow_html=True)
 
     bin_str = get_base64_of_bin_file(png_file)
